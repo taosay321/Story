@@ -3,3 +3,18 @@ git init > git add > git status >git commit -m > git log
 Recover previous file
 
 git status > git diff (file name) > git checkout(file name)
+
+
+using command line to upload file to github
+
+git remote add origin > git remote add origin (paste your github repository link)
+
+> git push -u origin master > done
+
+remove recovery file
+
+git rm --cached -r .
+
+clone file
+
+git clone (url)
